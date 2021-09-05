@@ -28,11 +28,13 @@ img{
     max-width: 1100px;
     margin: 0 auto;
     position: relative;
+    padding: 0.4%;
 }
 
 .wrapper-main{
-    width: 980px;
+    max-width: 980px;
     margin: 0 auto;
+    padding: 0.4%;
 }
 /*
 h3.main-title{
@@ -161,12 +163,22 @@ h1{
     border: 1px solid #A0A0A0;
     color: #2B2B2B;
     padding: 20px 50px;
+    transition: 0.6s;
+}
+
+.botton:hover{
+    background: #83888f;
+    color: white;
 }
 
 /*--ナビメニュー--*/
 
 ul{
     padding-left: 0;
+}
+
+.header-nav{
+    margin-bottom: 10px;
 }
 
 .nav-menu{
@@ -306,7 +318,7 @@ ul{
 
 
 .article-image-1{
-    background-image: url(img/mathew-schwartz-onOdABjwC0M-unsplash.jpg);
+    background-image: url(img/darya-tryfanava-d55fhArDES0-unsplash.jpg);
     height: 66%;
     background-size: cover;
 }
@@ -327,6 +339,49 @@ ul{
 
 .article-image_small2{
     background-image: url(img/sincerely-media-dGxOgeXAXm8-unsplash.jpg);
+    height: 100%;
+    width: 49%;
+    background-size: cover;
+}
+
+
+.article-image-02{
+    background-image: url(img/erika-fletcher-MZxqc6n9qCw-unsplash.jpg);
+    height: 66%;
+    background-size: cover;
+}
+
+.article-image_small02{
+    background-image: url(img/drahomir-posteby-mach-n4y3eiQSIoc-unsplash.jpg);
+    height: 100%;
+    width: 49%;
+    background-size: cover;
+}
+
+.article-image_small03{
+    background-image: url(img/dom-fou-YRMWVcdyhmI-unsplash.jpg);
+    height: 100%;
+    width: 49%;
+    background-size: cover;
+}
+
+
+.article-image-04{
+    background-image: url(img/toa-heftiba-6bKpHAun4d8-unsplash.jpg);
+    height: 66%;
+    background-size: cover;
+}
+
+
+.article-image_small05{
+    background-image: url(img/richard-cabusao-adQAb-L-YkE-unsplash.jpg);
+    height: 100%;
+    width: 49%;
+    background-size: cover;
+}
+
+.article-image_small06{
+    background-image: url(img/jeffrey-f-lin-YYQ1ARvhfCo-unsplash.jpg);
     height: 100%;
     width: 49%;
     background-size: cover;

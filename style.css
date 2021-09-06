@@ -730,6 +730,24 @@ ul .inner{
     top:5px
 }
 
+#page-top{
+    width: 60px;
+    height: 60px;
+    background: #83888f;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    z-index: 2;
+}
+
+#page-top a{
+    display: block;
+    height: 100%;
+    color: white;
+    padding-top: 5px;
+}
+
 @media(max-width: 767px){
     .about-main{
         flex-direction: column;
